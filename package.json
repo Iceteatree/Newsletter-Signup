@@ -1,0 +1,18 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "App that allows users to sign up for your newsletter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Alan Kow",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}
