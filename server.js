@@ -5,6 +5,9 @@ require('dotenv').config();
 const https = require('https');
 
 let app = express();
+const API_KEY = process.env.API_KEY;
+const LIST_ID = process.env.LIST_ID;
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
