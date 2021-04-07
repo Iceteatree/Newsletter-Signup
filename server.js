@@ -64,8 +64,8 @@ app.post("/failure", (req, res) => {
     res.redirect("/")
 })
 
-app.listen('8000', () => {
-    console.log("Listening on Port 8000.")
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`Listening on Port ${process.env.PORT}.`)
 })
 
 // process.env.API_KEY
